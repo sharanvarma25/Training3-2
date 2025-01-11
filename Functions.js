@@ -124,3 +124,26 @@
 //     console.log(a,b);
 // }
 // x();
+
+// //closure function
+// function x(){
+//     let a=10;
+//     const b=20;
+//     console.log(a,b);
+//     function y(){
+//         let p = "Js";
+//         let q = "React";
+//         console.log(p,q);
+//         function z(){
+//             const username = "cherry";
+//             console.log(username);
+//             console.log(a);
+//             console.log(q);
+//         }
+//         z();
+//     }
+//     y();
+//    }
+//    x();
+ 
+//
