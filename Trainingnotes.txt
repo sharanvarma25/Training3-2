@@ -227,4 +227,70 @@ ex:- {
 }
 
 extension for json file is ".json"
+JSON :- Javascript object notation
+- IT is used to transmit the data from client to server and server to client.
+- JSON is a lightweight technique to transfer the data from client to server and server to client.
+
+syntax :-  {
+                "key":"value"
+        }
+
+
+- for json no need to store it inside variable
+- both keys and values shoyuld be double quoted only except number.
+
+ex:- {
+    "name":"Sam",
+    "age":25
+}
+
+extension for json file is ".json"
+
+methods of json:-
+1.JSON.stringify() :- it will convert javascript object into json object
+2.JSON.parse() :- it will convert json object into javascript object
+
+
+web storages:-
+**************
+- It can store the data inside the browser.
+- upto 10MB of data can be stored.
+
+1.local storage :- it is a permanent data storage.
+                 - it can store upto 10MB.
+                 methods :-
+                1.localStorage.setItem("key" , "value")
+                2.localStorage.getItem("key")
+                3.localStorage.removeItem("key")
+                4.localStorage.clear()
+2.session storage:- it is a temporary data storage.
+                  -it can store upto 5MB of data.
+                  methods :-
+                1.sessionStorage.setItem("key" , "value")
+                2.sessionStorage.getItem("key")
+                3.sessionStorage.removeItem("key")
+                4.sessionStorage.clear()
+
+
+Note:-*** - Javascript is a  Synchronous (Single threaded language)
+
+Asynchronous:- making javascript to work multiple work simulataneously.
+
+1.setTimeout() :- It is a web api used to perform asynchronous opeartion in certain timeoout.
+synatx :-      setTimeout(callbackfn , timeout);
+2.setInterval() :- It is a web api used to perform async operations for evry interval of specified time.
+syntax :-    setInterval(callbackfn , timeinterval);
+
+3.Promise (es6 feature):- It is an Object which represents eventual completion or failures of asynchronous operations.
+        
+        states of promise :-
+        1.pending :-  still ongoing
+        2.fulfilled:-  successfully completed
+        3.rejected:- failueres
+syntax :-   let p = new Promise((resolve , reject)=>{});
+
+- for handling the promise we have a instance methods,
+                1.then() :- it is used to handle successful data.
+                2.catch() :- it is used to handle errors.
+                3.finally() :- finally will execute for both success & failures once the promise settles.
 
