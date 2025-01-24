@@ -320,3 +320,7 @@ methods of DOM :-
 5.document.querySelector("#id") :- this method selects only one element.
 
 6.document.querySelectorAll(".class") :- this method selects multiple elements.
+
+innerText :- this is a property used to add only text content.
+
+innerHTML :- this is a property used to add content along with tags.
