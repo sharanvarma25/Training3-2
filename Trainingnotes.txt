@@ -324,3 +324,23 @@ methods of DOM :-
 innerText :- this is a property used to add only text content.
 
 innerHTML :- this is a property used to add content along with tags.
+
+Events in javascript:-
+**********************
+- events are nothing but an action to perform on html elements.
+- in the events we have click events , mouse events , key events.
+click events :- onclick , ondblclick , onsubmit , onchange 
+mouse events :- onmouseover , onmouseleave
+key events :- keypress , keydown , keyup
+
+note :- every event is going to generate one object caled as  "event object".
+creation of elements dynamically from javascript:-
+**************************************************
+- to create an html element in javascript we use a method called as 
+        "document.createElement("tag name")"
+
+-in js , we can create a element , we can add a attribute from js itself
+- attribute can be added with a method called as "setAttribute()"
+- to remove attribute we have "removeAttribute()"
+- the element which is craeted in js should be added to html document.
+- to add this element we have a method called as "appendChild()".
