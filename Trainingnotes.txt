@@ -294,3 +294,53 @@ syntax :-   let p = new Promise((resolve , reject)=>{});
                 2.catch() :- it is used to handle errors.
                 3.finally() :- finally will execute for both success & failures once the promise settles.
 
+4.Async & await :-
+async :- this keyword makes synchronous function as asynchronous function and start to execute promise.
+
+await :- this keyword will make the function to wait untill promise completes
+
+DOM :- Document object model
+what is DOM?
+i. DOM is a web api used to manipulate the HTML content.
+ii. DOM is used to add , remove , update the content inside the html document.
+
+methods of DOM :-
+
+1.document.getElementById("demo") :- this method is used to target the html element based on "id" attribute value
+- with id attribute we can select only one element(unique element).
+
+2.document.getElementsByClassName("") :- this method is used to target the html element based on "class" attribute
+-with class attribute we can select multiple element with same class name
+
+3.document.getElementsByTagName("") :- this method is used to target the html element based on "TAGNAME".
+
+4.document.getElementsByName("") :- This method is used to target the element based on "name" attribute.
+
+// these below methods is used to target the elements based on css selectors.
+5.document.querySelector("#id") :- this method selects only one element.
+
+6.document.querySelectorAll(".class") :- this method selects multiple elements.
+
+innerText :- this is a property used to add only text content.
+
+innerHTML :- this is a property used to add content along with tags.
+
+Events in javascript:-
+**********************
+- events are nothing but an action to perform on html elements.
+- in the events we have click events , mouse events , key events.
+click events :- onclick , ondblclick , onsubmit , onchange 
+mouse events :- onmouseover , onmouseleave
+key events :- keypress , keydown , keyup
+
+note :- every event is going to generate one object caled as  "event object".
+creation of elements dynamically from javascript:-
+**************************************************
+- to create an html element in javascript we use a method called as 
+        "document.createElement("tag name")"
+
+-in js , we can create a element , we can add a attribute from js itself
+- attribute can be added with a method called as "setAttribute()"
+- to remove attribute we have "removeAttribute()"
+- the element which is craeted in js should be added to html document.
+- to add this element we have a method called as "appendChild()".
