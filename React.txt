@@ -1,0 +1,25 @@
+what is React ?
+-React is a JavaScript library to build rich user interface.
+-React is faster because of "virtual DOM".
+-React follows component based approach.
+-React follows unidirectional data flow.
+-React follows both client-side rendering and server-side rendering.
+
+- React was introduced in 2011 by facebook.
+-later it was made open-source in 2013.
+-Jordan walke
+- React is a free and platform independent.
+
+what is virtual Dom?
+- It is a virtual representation of a ui which is kept in the memory and 
+later synced with real DOM by using a library called "ReactDOM".
+
+what is reconsolation?
+- the process of updating the realDoM with the virtual DOM is called as reconsolation
+
+Installation of react application:-
+
+-install node js.
+check in cmd:- node -v
+install react application CLI(command line interface).
+                -npm install create-react-app 
